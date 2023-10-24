@@ -133,4 +133,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #ffd43b;
+}
+
+.form {
+  width: 60%;
+  height: 75%;
+  background-color: #fcc419;
 }
