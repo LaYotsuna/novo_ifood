@@ -19,9 +19,35 @@ html {
 body {
   font-family: "Rubik", sans-serif;
   background-color: #fff;
-  /* overflow: hidden; */
+  overflow-x: hidden;
 }
 
 :root {
   --white: #fff;
 }
+
+/* MAIN STYLES */
+.main {
+  width: 100vw;
+  height: 100vh;
+}
+
+/* SECTIONS STYLES */
+
+/* SERVIÇOS STYLES */
+servicos
+
+/* RESTAURANTES STYLES */
+restaurantes
+
+/* CARDÁPIO STYLES */
+cardapio
+
+/* CARTÃO STYLES */
+cartao
+
+/* ASSINATURA STYLES */
+assinatura
+
+/* FORMULÁRIO STYLES */
+formulario

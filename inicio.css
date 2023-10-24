@@ -19,7 +19,7 @@ html {
 body {
   font-family: "Rubik", sans-serif;
   background-color: #fff;
-  /* overflow: hidden; */
+  overflow-x: hidden;
 }
 
 :root {
