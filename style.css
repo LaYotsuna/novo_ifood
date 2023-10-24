@@ -70,3 +70,10 @@ body {
   height: 100%;
   background-color: #ff8787;
 }
+
+/* FEATURED IN STYLES */
+.featured {
+  width: 100vw;
+  height: 15vh;
+  background-color: #ff6b6b;
+}
