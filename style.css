@@ -19,9 +19,37 @@ html {
 body {
   font-family: "Rubik", sans-serif;
   background-color: #fff;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 :root {
   --white: #fff;
+}
+
+/* HEADER STYLES */
+.header {
+  width: 100vw;
+  height: 10vh;
+}
+
+/* NAVBAR STYLES */
+.navbar {
+  width: 100%;
+  height: 100%;
+  background-color: #fff5f5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width: 25%;
+  height: 100%;
+  background-color: #ffe3e3;
+  margin-left: 3.2rem;
+}
+.menu-nav {
+  width: 75%;
+  height: 100%;
+  background-color: #ffc9c9;
+  margin-right: 3.2rem;
 }
