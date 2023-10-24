@@ -87,10 +87,27 @@ body {
 
 /* CARTÃO STYLES */
 .cartao {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-cartao {
+  width: 40%;
+  height: 100%;
+  background-color: #fff9db;
+}
+
+.beneficios-cartao {
+  width: 60%;
+  height: 100%;
+  background-color: #fff3bf;
 }
 
 /* ASSINATURA STYLES */
-.assinatura {
+.trabalhe-conosco {
 }
 
 /* FORMULÁRIO STYLES */
