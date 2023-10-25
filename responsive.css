@@ -32,6 +32,7 @@
     column-gap: 0.4rem;
   }
 
+  /* SERVIÇO RESPONSIVO */
   .servico.restaurante {
     width: 95%;
     height: 75%;
@@ -46,6 +47,7 @@
     margin-bottom: 1.2rem;
   }
 
+  /* RESTAURANTES RESPONSIVO */
   .restaurantes {
     height: 25%;
   }
@@ -55,6 +57,7 @@
     height: 40%;
   }
 
+  /* CARDÁPIO RESPONSIVO */
   .cardapio {
     height: 80%;
     flex-direction: column;
@@ -65,6 +68,7 @@
     height: 40%;
   }
 
+  /* CARTÃO RESPONSIVO */
   .cartao {
     height: 75%;
     flex-direction: column;
@@ -83,6 +87,7 @@
     height: 65%;
   }
 
+  /* TRABALHE CONOSCO RESPONSIVO */
   .trabalhe-conosco {
     height: 60%;
     flex-direction: column;
@@ -93,9 +98,10 @@
     width: 100%;
   }
 
-  .entregador {
-  }
-  .empresa {
+  /* FORMULÁRIO RESPONSIVO */
+  .form {
+    width: 80%;
+    height: 90%;
   }
 }
 
