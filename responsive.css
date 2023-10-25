@@ -22,6 +22,7 @@
 
   /* MEIO RESPONSIVO */
   .servicos {
+    height: 45%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 2fr 1fr;
@@ -43,6 +44,15 @@
     height: 80%;
     grid-row: 2;
     margin-bottom: 1.2rem;
+  }
+
+  .restaurantes {
+    height: 25%;
+  }
+
+  .estabelecimento {
+    width: 25%;
+    height: 40%;
   }
 }
 
