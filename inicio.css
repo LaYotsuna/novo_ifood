@@ -69,6 +69,20 @@ body {
 .menu-conta {
   width: 25%;
   height: 100%;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3.2rem;
+}
+
+.login {
+  color: var(--red-main);
+  background-color: var(--white);
+  padding: 1.2rem 2.4rem;
+  border-radius: 1.2rem;
 }
 
 /* HERO STYLES */
