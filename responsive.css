@@ -54,6 +54,16 @@
     width: 25%;
     height: 40%;
   }
+
+  .cardapio {
+    height: 80%;
+    flex-direction: column;
+  }
+
+  .comida {
+    width: 55%;
+    height: 40%;
+  }
 }
 
 @media screen and (max-width: 950px) and (orientation: landscape) {
