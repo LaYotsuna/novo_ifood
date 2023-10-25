@@ -58,6 +58,12 @@ body {
 .menu-nav {
   width: 50%;
   height: 100%;
+  font-size: 1.6rem;
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3.2rem;
 }
 
 .menu-conta {
