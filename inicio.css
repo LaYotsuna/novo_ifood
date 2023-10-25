@@ -25,13 +25,16 @@ body {
 :root {
   --white: #fff;
   --red-main: #e03131;
+  --red-light: #fa5252;
   --gray-main: #343a40;
+  --gray-light: #e9ecef;
 }
 
 /* HEADER STYLES */
 .header {
   width: 100vw;
   height: 85vh;
+  position: relative;
 }
 
 /* NAVBAR STYLES */
@@ -103,6 +106,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 0.8rem;
 }
 
 .hero-conteudo h1 {
@@ -113,6 +117,61 @@ body {
 .hero-conteudo p {
   font-size: 2rem;
   font-weight: 200;
+}
+
+.hero-conteudo span {
+  color: var(--white);
+  font-weight: 200;
+  background-color: var(--gray-main);
+  font-size: 1.6rem;
+  padding: 0.8rem;
+  position: absolute;
+  left: 0;
+  bottom: 82.5%;
+  /*   border-top-right-radius: 1.2rem;
+  border-bottom-right-radius: 1.2rem; */
+}
+
+.escondido {
+  display: none;
+}
+
+.hero-buscar {
+  margin-top: 3.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.hero-buscar input[type="text"] {
+  border: none;
+  outline: none;
+  border-radius: 1.2rem;
+  background-color: var(--gray-light);
+  padding: 1.6rem 4.8rem;
+}
+
+.hero-buscar input[type="button"] {
+  border: none;
+  outline: none;
+  border-radius: 1.2rem;
+  background-color: var(--red-main);
+  padding: 1.6rem 2.4rem;
+  color: var(--white);
+  font-weight: 500;
+}
+
+.icone-busca {
+  background-color: var(--gray-light);
+  padding-right: 2.4rem;
+  border-radius: 1.2rem;
+  margin-right: -6.4rem;
+}
+
+i {
+  color: var(--red-main);
+  --ggs: 1;
 }
 
 .hero-img {
