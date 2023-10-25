@@ -82,6 +82,21 @@
   .beneficios-cartao {
     height: 65%;
   }
+
+  .trabalhe-conosco {
+    height: 60%;
+    flex-direction: column;
+  }
+
+  .entregador,
+  .empresa {
+    width: 100%;
+  }
+
+  .entregador {
+  }
+  .empresa {
+  }
 }
 
 @media screen and (max-width: 950px) and (orientation: landscape) {
