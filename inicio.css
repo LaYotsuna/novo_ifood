@@ -24,6 +24,7 @@ body {
 
 :root {
   --white: #fff;
+  --red-main: #e03131;
 }
 
 /* HEADER STYLES */
@@ -36,20 +37,32 @@ body {
 .navbar {
   width: 100%;
   height: 15%;
-  background-color: #fff5f5;
+  background-color: var(--red-main);
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .logo {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img {
+  width: 25%;
+}
+
+.menu-nav {
+  width: 50%;
+  height: 100%;
+}
+
+.menu-conta {
   width: 25%;
   height: 100%;
-  background-color: #ffe3e3;
-}
-.menu-nav {
-  width: 75%;
-  height: 100%;
-  background-color: #ffc9c9;
 }
 
 /* HERO STYLES */
