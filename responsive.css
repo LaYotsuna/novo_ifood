@@ -1,20 +1,24 @@
 /* SOME SMARTPHONES */
 
 @media screen and (max-width: 950px) and (orientation: portrait) {
+  .logo {
+    width: 50%;
+  }
+
+  .menu-nav {
+    width: 50%;
+  }
+
+  .hero {
+    flex-direction: column;
+  }
+
+  .hero-conteudo,
+  .hero-img {
+    width: 100%;
+    height: 50%;
+  }
 }
 
 @media screen and (max-width: 950px) and (orientation: landscape) {
-}
-
-/* SOME SMALLER TABLETS */
-
-@media screen and (min-width: 768px) and (max-width: 900px) and (orientation: portrait) {
-}
-
-@media screen and (min-width: 900px) and (max-width: 1195px) and (orientation: landscape) {
-}
-
-/* SOME LAPTOPS */
-
-@media screen and (min-width: 1196px) and (max-width: 1280px) {
 }
