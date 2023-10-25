@@ -25,6 +25,7 @@ body {
 :root {
   --white: #fff;
   --red-main: #e03131;
+  --gray-main: #343a40;
 }
 
 /* HEADER STYLES */
@@ -97,7 +98,21 @@ body {
 .hero-conteudo {
   width: 50%;
   height: 100%;
-  background-color: #ffa8a8;
+  color: var(--gray-main);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-conteudo h1 {
+  font-size: 4.4rem;
+  font-weight: 500;
+}
+
+.hero-conteudo p {
+  font-size: 2rem;
+  font-weight: 200;
 }
 
 .hero-img {
@@ -110,7 +125,7 @@ body {
 
 .hero-img img {
   margin-top: 2.4rem;
-  width: 75%;
+  width: 70%;
 }
 
 /* FEATURED IN STYLES */
