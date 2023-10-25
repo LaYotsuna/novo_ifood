@@ -132,8 +132,6 @@ body {
   position: absolute;
   left: 0;
   bottom: 82.5%;
-  /*   border-top-right-radius: 1.2rem;
-  border-bottom-right-radius: 1.2rem; */
 }
 
 .escondido {
@@ -163,7 +161,7 @@ body {
   background-color: var(--red-main);
   padding: 1.6rem 2.4rem;
   color: var(--white);
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .icone-busca {
