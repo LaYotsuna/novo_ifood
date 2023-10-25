@@ -1,6 +1,7 @@
 /* SOME SMARTPHONES */
 
 @media screen and (max-width: 950px) and (orientation: portrait) {
+  /* INÍCIO RESPONSIVO */
   .logo {
     width: 50%;
   }
@@ -17,6 +18,31 @@
   .hero-img {
     width: 100%;
     height: 50%;
+  }
+
+  /* MEIO RESPONSIVO */
+  .servicos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 2fr 1fr;
+    justify-items: center;
+    align-items: center;
+    row-gap: 0.4rem;
+    column-gap: 0.4rem;
+  }
+
+  .servico.restaurante {
+    width: 95%;
+    height: 75%;
+    grid-column: span 4;
+    grid-row: 1;
+  }
+
+  .servico {
+    width: 75%;
+    height: 80%;
+    grid-row: 2;
+    margin-bottom: 1.2rem;
   }
 }
 
