@@ -64,6 +64,24 @@
     width: 55%;
     height: 40%;
   }
+
+  .cartao {
+    height: 75%;
+    flex-direction: column;
+  }
+
+  .img-cartao,
+  .beneficios-cartao {
+    width: 100%;
+  }
+
+  .img-cartao {
+    height: 35%;
+  }
+
+  .beneficios-cartao {
+    height: 65%;
+  }
 }
 
 @media screen and (max-width: 950px) and (orientation: landscape) {
