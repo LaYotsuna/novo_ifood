@@ -103,6 +103,11 @@
     width: 80%;
     height: 90%;
   }
+
+  /* CONTEÚDO OCULTADO */
+  .hidden {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 950px) and (orientation: landscape) {
