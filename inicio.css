@@ -25,7 +25,10 @@ body {
 :root {
   --white: #fff;
   --red-main: #e03131;
-  --red-light: #fa5252;
+  --lime-main: #8ece35;
+  --cyan-main: #15aabf;
+  --yellow-main: #fcc419;
+  --purple-main: #7455cf;
   --gray-main: #343a40;
   --gray-medium: #868e96;
   --gray-light: #e9ecef;
