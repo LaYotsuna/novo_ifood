@@ -324,6 +324,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 2.4rem;
 }
 
 .tarabalhe-img {
@@ -334,15 +335,43 @@ body {
 .tarabalhe-img img {
   height: 100%;
   width: 100%;
-  border-radius: 15%;
+  object-fit: contain;
+  border-radius: 2.4rem;
+}
+
+.trabalhe-conteudo {
+  text-align: left;
+  width: 100%;
+  height: 100%;
+  color: var(--gray-main);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3.6rem;
+}
+
+.trabalhe-conteudo h2 {
+  font-size: 3.6rem;
+  font-weight: 500;
+}
+
+.trabalhe-conteudo p {
+  font-size: 1.8rem;
+  font-weight: 200;
+}
+
+.trabalhe-conteudo span {
+  color: var(--red-main);
+  font-weight: 600;
 }
 
 .entregador {
-  width: 50%;
+  width: 35%;
   height: 100%;
 }
+
 .empresa {
-  width: 50%;
+  width: 35%;
   height: 100%;
 }
 
