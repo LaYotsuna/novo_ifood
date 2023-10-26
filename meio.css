@@ -388,10 +388,41 @@ body {
   align-items: center;
 }
 
+.container-form {
+  width: 50%;
+  height: 80%;
+  background-color: var(--red-light);
+  border-radius: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .form {
-  width: 60%;
-  height: 75%;
-  background-color: #fcc419;
+  color: var(--white);
+  padding: 4.8rem;
+}
+
+.form-img {
+  height: 100%;
+  width: fit-content;
+}
+
+.form-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-top-right-radius: 1.2rem;
+  border-bottom-right-radius: 1.2rem;
+}
+
+.filtro-img {
+  height: 100%;
+  width: 100%;
+  background-color: var(--red-light);
+  opacity: 75%;
+  border-top-right-radius: 1.2rem;
+  border-bottom-right-radius: 1.2rem;
 }
 
 /* FOOTER SYLES */
