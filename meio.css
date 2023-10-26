@@ -216,10 +216,6 @@ body {
   background-color: var(--orange-main);
 }
 
-.comida-tag.verde {
-  background-color: var(--green-main);
-}
-
 .comida-tag.vermelho {
   background-color: var(--red-light);
 }
@@ -261,15 +257,47 @@ body {
 }
 
 .img-cartao {
-  width: 40%;
+  width: 30%;
   height: 100%;
-  background-color: #fff9db;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 25%;
+}
+
+.img-cartao img {
+  height: 85%;
 }
 
 .beneficios-cartao {
-  width: 60%;
+  width: 50%;
   height: 100%;
-  background-color: #fff3bf;
+}
+
+.beneficios-conteudo {
+  text-align: left;
+  width: 50%;
+  height: 100%;
+  color: var(--gray-main);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2.4rem;
+}
+
+.beneficios-conteudo h2 {
+  font-size: 3.6rem;
+  font-weight: 500;
+}
+
+.beneficios-conteudo p {
+  font-size: 1.8rem;
+  font-weight: 200;
+}
+
+.beneficios-conteudo span {
+  color: var(--red-main);
+  font-weight: 600;
 }
 
 /* ASSINATURA STYLES */
@@ -307,8 +335,8 @@ body {
   height: 75%;
   background-color: #fcc419;
 }
-/* FOOTER SYLES */
 
+/* FOOTER SYLES */
 .footer {
   width: 100%;
   height: 40%;
