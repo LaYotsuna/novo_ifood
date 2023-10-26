@@ -264,54 +264,58 @@
       <section class="formulario">
         <div class="container-form">
           <div class="form">
-                <h2 class="heading-secondary">Get your first meal for free!</h2>
-                <p class="cta-text">
-                  Healthy, tasty and hassle-free meals are waiting for you. Start
-                  eating well today. You can cancel or pause anytime. And the
-                  first meal is on us!
-                </p>
+            <div class="form-textos">
+              <h2>Nos dê seu feedback!</h2>
+              <p>
+                Se precisar de algum tipo de ajuda ou se estiver interessado em enviar sugestões para o serviço que ofereçemos, preencha o nosso formulário.
+              </p>
+            </div>
 
-                <form class="cta-form" name="sign-up">
-                  <div>
-                    <label for="full-name">Full Name</label>
-                    <input
-                      id="full-name"
+            <form class="form-inputs" name="feedback">
+              <div class="input-nome">
+                <label for="nome">Nome</label>
+                <input
+                      id="nome"
                       type="text"
-                      placeholder="John Smith"
-                      name="full-name"
+                      placeholder="Seu nome"
+                      name="nome"
                       required
                     />
-                  </div>
+              </div>
 
-                  <div>
-                    <label for="email">Email address</label>
-                    <input
+              <div class="input-email">
+                <label for="email">Email address</label>
+                <input
                       id="email"
                       type="email"
-                      placeholder="me@example.com"
+                      placeholder="email@exemplo.com"
                       name="email"
                       required
                     />
-                  </div>
+              </div>
 
-                  <div>
-                    <label for="select-where">Where did you hear from us?</label>
-                    <select id="select-where" name="select-where" required>
-                      <option value="">Please choose one option:</option>
-                      <option value="friends">Friends and family</option>
-                      <option value="youtube">YouTube video</option>
-                      <option value="podcast">Podcast</option>
-                      <option value="ad">Facebook ad</option>
-                      <option value="others">Others</option>
-                    </select>
+              <div class="input-selecao">
+                <label for="selecionar-onde">Como conheceu o iFood?</label>
+                <select id="selecionar-onde" name="selecionar-onde" required>
+                  <option value="">Escolha uma opção:</option>
+                  <option value="amigos">Amigos e família</option>
+                  <option value="youtube">YouTube</option>
+                  <option value="google">Google</option>
+                  <option value="ig">Instagram</option>
+                  <option value="outros">Outros</option>
+                </select>
               </div>
+
+                <div class="input-enviar">
+                  <input type="submit" value="Enviar">
+                </div>
+            </form>
+          </div>
+          <div class="form-img">
+            <div class="filtro-img">
+              <img src="img/modelo-entregador.jpg" alt="Entregador">
             </div>
-            <div class="form-img">
-              <div class="filtro-img">
-                <img src="img/modelo-entregador.jpg" alt="Entregador">
-              </div>
-              
-            </div>
+          </div>
         </div>
       </section>
 
