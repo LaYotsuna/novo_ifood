@@ -320,21 +320,30 @@ body {
 /* ASSINATURA STYLES */
 .trabalhe-conosco {
   width: 100%;
-  height: 40%;
+  height: 60%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+.tarabalhe-img {
+  height: 75%;
+  width: 20%;
+}
+
+.tarabalhe-img img {
+  height: 100%;
+  width: 100%;
+  border-radius: 15%;
+}
+
 .entregador {
   width: 50%;
   height: 100%;
-  background-color: #ffec99;
 }
 .empresa {
   width: 50%;
   height: 100%;
-  background-color: #ffe066;
 }
 
 /* FORMULÁRIO STYLES */
