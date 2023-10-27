@@ -476,7 +476,3 @@ hr {
   width: 75%;
   border: 0.1rem solid var(--gray-light);
 }
-
-hr:last-of-type {
-  width: 100%;
-}
