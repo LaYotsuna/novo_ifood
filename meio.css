@@ -231,6 +231,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
 }
 
 .img-cartao {
