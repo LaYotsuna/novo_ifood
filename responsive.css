@@ -40,7 +40,8 @@
 
   /* HERO */
   .hero {
-    padding-top: 30%;
+    height: 75%;
+    padding-top: 50%;
     flex-direction: column;
     gap: 6.4rem;
   }
@@ -50,6 +51,7 @@
     height: 50%;
     margin-left: 2.4rem;
     margin-right: 2.4rem;
+    padding-bottom: 25%;
   }
 
   .hero-img {
@@ -88,11 +90,32 @@
 
   .hero-img {
     padding-top: 3.2rem;
+    padding-bottom: 3.2rem;
   }
 
   .hero-img img {
     margin-top: 8rem;
     width: 80%;
+  }
+
+  /* FEATURED IN STYLES */
+
+  .featured {
+    padding-top: 2.4rem;
+    font-size: 1.2rem;
+    height: 15vh;
+  }
+
+  .frase-destaque {
+    height: 20%;
+  }
+
+  .destaque {
+    gap: 2.4rem;
+  }
+
+  .destaque img {
+    height: 40%;
   }
 
   /* MEIO RESPONSIVO */
@@ -180,8 +203,8 @@
   }
 
   /* CONTEÚDO OCULTADO */
-  .oculto {
-    display: none;
+  .notificacao {
+    display: none !important;
   }
 }
 
