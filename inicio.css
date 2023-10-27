@@ -80,6 +80,7 @@
 .hero-conteudo h1 {
   font-size: 4.4rem;
   font-weight: 500;
+  margin-bottom: 0.4rem;
 }
 
 .hero-conteudo p {
@@ -87,6 +88,7 @@
   font-weight: 200;
 }
 
+/* NOTIFICAÇÃO */
 .hero-conteudo span {
   color: var(--white);
   font-weight: 200;
