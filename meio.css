@@ -1,3 +1,21 @@
+:root {
+  --white: #fff;
+  --red-main: #e03131;
+  --red-light: #ff6b6b;
+  --lime-main: #8ece35;
+  --lime-light: #94d82d;
+  --green-main: #69db7c;
+  --cyan-main: #15aabf;
+  --yellow-main: #ffd43b;
+  --purple-main: #7455cf;
+  --purple-light: #b197fc;
+  --orange-main: #ffa94d;
+  --gray-main: #343a40;
+  --gray-dark: #495057;
+  --gray-medium: #868e96;
+  --gray-light: #e9ecef;
+}
+
 /* MAIN STYLES */
 .main {
   width: 100vw;
@@ -9,7 +27,7 @@
 /* SERVIÇOS STYLES */
 .servicos {
   width: 100%;
-  height: 40%;
+  height: 45%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,7 +36,7 @@
 
 .servico {
   width: 15%;
-  height: 45%;
+  height: 40%;
   padding: 0 1.6rem;
   background-color: var(--white);
   border-radius: 1.2rem;
