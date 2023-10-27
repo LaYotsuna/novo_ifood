@@ -156,33 +156,24 @@
     width: 75%;
   }
 
-  /* CARTÃO RESPONSIVO */
+  /* CARTÃO */
   .cartao {
-    height: 75%;
+    margin-top: 140%;
+    margin-bottom: 100%;
     flex-direction: column;
+    gap: 4.8rem;
   }
 
-  .img-cartao,
+  .img-cartao {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
   .beneficios-cartao {
     width: 100%;
   }
 
-  .img-cartao {
-    height: 35%;
-  }
-
-  .beneficios-cartao {
-    height: 65%;
-  }
-
-  /* TRABALHE CONOSCO RESPONSIVO */
-  .trabalhe-conosco {
-    height: 60%;
-    flex-direction: column;
-  }
-
-  .entregador,
-  .empresa {
+  .lojas-mobile {
     width: 100%;
   }
 
