@@ -1,13 +1,13 @@
 "use strict";
-
-function abrirMenuMobile() {
-  const menuMobile = document.querySelector(".menu-nav.mobile");
-  const iconeMenuMobile = document.querySelector(".icone-menu");
-
-  iconeMenuMobile.addEventListener("click", function () {
-    menuMobile.classList.toggle("open");
-  });
-}
+/* Não finalizado */
+document.getElementById("icone-menu").addEventListener("click", function () {
+  let menu = document.getElementById("menu-mobile");
+  if (menu.classList.contains("active")) {
+    menu.classList.remove("active");
+  } else {
+    menu.classList.add("active");
+  }
+});
 
 // Quando o cursor estiver na navbar a notficação aparecerá
 function notificacaoCaraNova() {

@@ -56,6 +56,27 @@
   width: 25%;
 }
 
+/* Não finalizado */
+#menu-mobile {
+  display: none; /* Esconde o menu inicialmente */
+  position: fixed; /* Posiciona sobre o conteúdo da página */
+  top: 0;
+  left: 0;
+  width: 100%; /* Largura total */
+  height: 100%; /* Altura total */
+  background-color: white; /* Fundo branco */
+  z-index: 1001; /* Garantir que esteja acima de outros elementos */
+  flex-direction: column; /* Itens em coluna para mobile */
+}
+
+/* Estilos adicionais para os itens do menu quando ativo */
+#menu-mobile.active a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+
 .menu-nav {
   width: 50%;
   height: 100%;
