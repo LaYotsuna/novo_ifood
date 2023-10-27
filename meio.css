@@ -365,6 +365,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
 }
 
 .form-container {
@@ -375,13 +377,15 @@
   display: flex;
   align-items: center;
   gap: 3.2rem;
+  box-shadow: 0px 0px 22px 4px rgba(0, 0, 0, 0.1),
+    0px 10px 15px -3px rgba(0, 0, 0, 0.1);
 }
 
 .form-data {
   width: 65%;
   height: 100%;
   color: var(--white);
-  padding: 6.4rem;
+  padding: 2.4rem 6.4rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -459,6 +463,7 @@ select:focus {
 
 /* FOOTER SYLES */
 .footer {
+  background-color: var(--gray-light);
   width: 100%;
   height: 35%;
 }
