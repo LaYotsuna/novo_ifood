@@ -465,9 +465,28 @@ select:focus {
 
 /* FOOTER SYLES */
 .footer {
+  color: var(--gray-medium);
   background-color: var(--gray-light);
   width: 100%;
   height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4.8rem;
+}
+
+.links-footer-container {
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12.8rem;
+}
+
+.links-footer-container li {
+  list-style-type: none;
+  margin-bottom: 1.6rem;
 }
 
 /* Outros */
