@@ -156,6 +156,12 @@
     width: 75%;
   }
 
+  .comida:hover {
+    margin-bottom: 0;
+    scale: 1.05;
+    transition: all 0.5s;
+  }
+
   /* CARTÃO */
   .cartao {
     margin-top: 140%;
