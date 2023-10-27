@@ -6,10 +6,10 @@ function notificacaoCaraNova() {
   const notificacao = document.querySelector(".notificacao");
 
   navbar.addEventListener("mouseover", (event) => {
-    notificacao.classList.toggle("escondido");
-  });
-  navbar.addEventListener("mouseout", (event) => {
-    notificacao.classList.toggle("escondido");
+    notificacao.classList.remove("escondido");
+    navbar.addEventListener("mouseout", (event) => {
+      notificacao.classList.add("escondido");
+    });
   });
 }
 
