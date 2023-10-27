@@ -6,8 +6,35 @@
     width: 50%;
   }
 
-  .menu-nav {
+  .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .icone-menu {
     width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .icone-menu i {
+    color: var(--white);
+    --ggs: 1.25;
+  }
+
+  .menu-nav,
+  .menu-conta {
+    display: none;
+  }
+
+  .menu-nav.mobile {
+    display: block;
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--white);
   }
 
   .hero {

@@ -32,6 +32,10 @@
   align-items: center;
 }
 
+.navbar.gg-menu {
+  color: var(--white);
+}
+
 .navbar-fixed {
   position: fixed;
   top: 0;

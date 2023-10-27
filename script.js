@@ -1,5 +1,14 @@
 "use strict";
 
+function abrirMenuMobile() {
+  const menuMobile = document.querySelector(".menu-nav.mobile");
+  const iconeMenuMobile = document.querySelector(".icone-menu");
+
+  iconeMenuMobile.addEventListener("click", function () {
+    menuMobile.classList.toggle("mobile");
+  });
+}
+
 // Quando o cursor estiver na navbar a notficação aparecerá
 function notificacaoCaraNova() {
   const navbar = document.querySelector(".navbar");
@@ -19,3 +28,4 @@ function onSubmit() {
 }
 
 notificacaoCaraNova();
+abrirMenuMobile();
