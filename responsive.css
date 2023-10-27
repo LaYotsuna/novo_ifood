@@ -177,10 +177,30 @@
     width: 100%;
   }
 
-  /* FORMULÁRIO RESPONSIVO */
-  .form {
-    width: 80%;
-    height: 90%;
+  /* TRABALHE CONOSCO */
+  .trabalhe-conosco {
+    margin-top: 120%;
+    margin-bottom: 55%;
+    height: 65%;
+    flex-direction: column;
+    gap: 4.8rem;
+  }
+
+  .tarabalhe-img {
+    width: 85%;
+  }
+
+  .entregador,
+  .empresa {
+    width: 75%;
+  }
+
+  .trabalhe-conteudo p {
+    font-size: 1.6rem;
+  }
+
+  .trabalhe-conteudo input[type="button"] {
+    width: 50%;
   }
 
   /* CONTEÚDO OCULTADO */
