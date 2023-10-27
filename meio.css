@@ -482,5 +482,15 @@ select:focus {
 .footer {
   width: 100%;
   height: 35%;
-  background-color: #f3f0ff;
+}
+
+/* Outros */
+hr {
+  margin: 0 auto;
+  width: 75%;
+  border: 0.1rem solid var(--gray-light);
+}
+
+hr:last-of-type {
+  width: 100%;
 }
