@@ -242,8 +242,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 15%;
-  margin-right: -2.5%;
+  margin-left: 10%;
+  margin-right: -10%;
 }
 
 .img-cartao img {
@@ -256,13 +256,14 @@
 }
 
 .beneficios-conteudo {
-  text-align: left;
-  width: 60%;
+  text-align: center;
+  width: 100%;
   height: 100%;
   color: var(--gray-main);
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   gap: 3.6rem;
 }
 
@@ -272,7 +273,7 @@
 }
 
 .beneficios-conteudo p {
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: 200;
 }
 
@@ -291,7 +292,7 @@
 
 .lojas-mobile img {
   cursor: pointer;
-  width: 50%;
+  width: 30%;
   height: auto;
   border-radius: 4.8rem;
   background-color: #000;

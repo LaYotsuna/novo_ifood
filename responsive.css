@@ -159,7 +159,7 @@
   /* CARTÃO */
   .cartao {
     margin-top: 140%;
-    margin-bottom: 100%;
+    margin-bottom: 50%;
     flex-direction: column;
     gap: 4.8rem;
   }
@@ -169,8 +169,20 @@
     margin-right: 0;
   }
 
+  .beneficios-conteudo {
+    padding: 1.6rem;
+  }
+
   .beneficios-cartao {
     width: 100%;
+  }
+
+  .beneficios-conteudo h2 {
+    font-size: 2.4rem;
+  }
+
+  .beneficios-conteudo p {
+    font-size: 1.8rem;
   }
 
   .lojas-mobile {
@@ -179,8 +191,8 @@
 
   /* TRABALHE CONOSCO */
   .trabalhe-conosco {
-    margin-top: 120%;
-    margin-bottom: 55%;
+    margin-top: 110%;
+    margin-bottom: 75%;
     height: 65%;
     flex-direction: column;
     gap: 4.8rem;
