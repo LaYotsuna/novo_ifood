@@ -20,17 +20,17 @@ https://omnifood.dev/
 
 COLORS
 Reference: https://yeun.github.io/open-color/#grape
-Main:
-Tints: 
-Greys:
+Main: on root
+Tints: on root
+Greys: on root
 
 SHADOWS
 offset-x | offset-y | blur-radius | spread-radius | color
 
 BORDER-RADIUS
-Default: 
-Medium: 
-Big: 
+Default: 1.2rem
+Medium: 2.4rem
+Big: #
 
 WHITESPACE
 Spacing system (px)

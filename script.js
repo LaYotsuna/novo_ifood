@@ -1,7 +1,21 @@
 "use strict";
 
-import { someFunction } from "./module.js";
+// Quando o cursor estiver na navbar a notficação aparecerá
+function notificacaoCaraNova() {
+  const navbar = document.querySelector(".navbar");
+  const notificacao = document.querySelector(".notificacao");
 
-someFunction("This is a module function");
+  navbar.addEventListener("mouseover", (event) => {
+    notificacao.classList.toggle("escondido");
+  });
+  navbar.addEventListener("mouseout", (event) => {
+    notificacao.classList.toggle("escondido");
+  });
+}
 
-/* Criar função para usar hover na logo e aparecer notificação, removendo a classe "escondido" */
+// Ao enviar o formulário com sucesso cria um alerta
+function onSubmit() {
+  alert("Feedback enviado com sucesso!");
+}
+
+notificacaoCaraNova();

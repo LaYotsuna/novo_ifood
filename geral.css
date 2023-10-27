@@ -1,0 +1,41 @@
+/* FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* ICONS */
+@import url("https://css.gg/css");
+
+/* GENERAL STYLES */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  background-color: #f8f9fa;
+  overflow-x: hidden;
+}
+
+:root {
+  --white: #fff;
+  --red-main: #e03131;
+  --red-light: #ff6b6b;
+  --lime-main: #8ece35;
+  --lime-light: #94d82d;
+  --green-main: #69db7c;
+  --cyan-main: #15aabf;
+  --yellow-main: #ffd43b;
+  --purple-main: #7455cf;
+  --purple-light: #b197fc;
+  --orange-main: #ffa94d;
+  --gray-main: #343a40;
+  --gray-dark: #495057;
+  --gray-medium: #868e96;
+  --gray-light: #e9ecef;
+}
