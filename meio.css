@@ -89,7 +89,7 @@
 /* RESTAURANTES STYLES */
 .restaurantes {
   width: 100%;
-  height: 25%;
+  height: 45%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -98,7 +98,7 @@
 
 .estabelecimento {
   width: 10%;
-  height: 60%;
+  height: 35%;
   display: flex;
   flex-direction: column;
   justify-content: center;
