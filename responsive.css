@@ -143,15 +143,17 @@
     width: 60%;
   }
 
-  /* CARDÁPIO RESPONSIVO */
+  /* CARDÁPIO  */
   .cardapio {
-    height: 80%;
+    height: 50%;
     flex-direction: column;
+    gap: 3.2rem;
+    margin-top: 110%;
+    margin-bottom: 90%;
   }
 
   .comida {
-    width: 55%;
-    height: 40%;
+    width: 75%;
   }
 
   /* CARTÃO RESPONSIVO */
