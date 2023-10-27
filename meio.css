@@ -27,7 +27,7 @@
 /* SERVIÇOS STYLES */
 .servicos {
   width: 100%;
-  height: 45%;
+  height: 35%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -36,7 +36,7 @@
 
 .servico {
   width: 15%;
-  height: 40%;
+  height: 47.5%;
   padding: 0 1.6rem;
   background-color: var(--white);
   border-radius: 1.2rem;
@@ -89,7 +89,7 @@
 /* RESTAURANTES STYLES */
 .restaurantes {
   width: 100%;
-  height: 45%;
+  height: 40%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -98,7 +98,7 @@
 
 .estabelecimento {
   width: 10%;
-  height: 35%;
+  height: 37.5%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -134,7 +134,7 @@
   justify-content: center;
   align-items: center;
   gap: 4.8rem;
-  margin-bottom: 5%;
+  margin-bottom: 3.5%;
 }
 
 .comida {
@@ -227,7 +227,7 @@
 /* CARTÃO STYLES */
 .cartao {
   width: 100%;
-  height: 60%;
+  height: 55%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -236,7 +236,7 @@
 }
 
 .img-cartao {
-  width: 30%;
+  width: 35%;
   height: 100%;
   display: flex;
   justify-content: center;
@@ -250,7 +250,7 @@
 }
 
 .beneficios-cartao {
-  width: 50%;
+  width: 55%;
   height: 100%;
 }
 
@@ -296,10 +296,10 @@
   padding: 0.8rem 1.2rem;
 }
 
-/* ASSINATURA STYLES */
+/* TRABALHE CONOSCO STYLES */
 .trabalhe-conosco {
   width: 100%;
-  height: 60%;
+  height: 55%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -307,7 +307,7 @@
 }
 
 .tarabalhe-img {
-  height: 75%;
+  height: 80%;
   width: 20%;
 }
 
