@@ -5,7 +5,7 @@ function abrirMenuMobile() {
   const iconeMenuMobile = document.querySelector(".icone-menu");
 
   iconeMenuMobile.addEventListener("click", function () {
-    menuMobile.classList.toggle("mobile");
+    menuMobile.classList.toggle("open");
   });
 }
 
