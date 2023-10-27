@@ -487,6 +487,8 @@ select:focus {
   justify-content: center;
   align-items: center;
   gap: 12.8rem;
+  margin-left: 3.2rem;
+  margin-right: 3.2rem;
 }
 
 .links-footer-container li {
@@ -505,6 +507,8 @@ select:focus {
 
 .copyrights-container {
   font-size: 1.4rem;
+  margin-left: 3.2rem;
+  margin-right: 3.2rem;
 }
 
 /* Outros */
