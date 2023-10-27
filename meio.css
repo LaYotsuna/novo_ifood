@@ -489,6 +489,10 @@ select:focus {
   margin-bottom: 1.6rem;
 }
 
+.links-footer-container .link-footer {
+  cursor: pointer;
+}
+
 .links-footer-titulo {
   font-size: 1.8rem;
   font-weight: 600;
