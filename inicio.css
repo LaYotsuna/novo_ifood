@@ -57,6 +57,7 @@
 }
 
 /* Não finalizado */
+/* BUG */
 #menu-mobile {
   display: none; /* Esconde o menu inicialmente */
   position: fixed; /* Posiciona sobre o conteúdo da página */
