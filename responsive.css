@@ -209,6 +209,10 @@
     width: 100%;
   }
 
+  .lojas-mobile img {
+    width: 40%;
+  }
+
   /* TRABALHE CONOSCO */
   .trabalhe-conosco {
     margin-top: 110%;
